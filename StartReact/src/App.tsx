@@ -61,10 +61,10 @@ export default function App() {
             Related Resources
           </button>
           <button
-            className={activeContentIndex === 2 ? "active" : ""}
+            className={activeContentIndex === 3 ? "active" : ""}
             onClick={() => setActiveContentIndex(3)}
           >
-            Related Resources
+            Some 4th button
           </button>
         </menu>
         <div id="tab-content">
